@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-struct Coordinate{
+struct Coordinate{           //structure for coordinate having two data members(2-d)
     double m,n;
 };
 int order(Coordinate x, Coordinate y, Coordinate z){                               //check if colinear,cw or acw 
